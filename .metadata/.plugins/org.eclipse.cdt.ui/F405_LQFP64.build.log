@@ -1,0 +1,10 @@
+19:00:59 **** Incremental Build of configuration Debug for project F405_LQFP64 ****
+make -j4 all 
+arm-none-eabi-size   F405_LQFP64.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 107420	    128	  85104	 192652	  2f08c	F405_LQFP64.elf
+Finished building: default.size.stdout
+ 
+
+19:01:00 Build Finished. 0 errors, 0 warnings. (took 538ms)
+
