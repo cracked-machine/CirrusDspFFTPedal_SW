@@ -22,15 +22,15 @@
 #include "adc.h"
 #include "dma.h"
 #include "i2s.h"
+#include "tim.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include <math.h>
-#include <stdio.h>
-#include "SEGGER_RTT.h"
-#include "arm_math.h"
 
+#include "arm_math.h"
+#include "user_input.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -41,8 +41,8 @@
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 
-//#define IIR_BIQUAD
-#define REAL_FFT
+#define IIR_BIQUAD
+//#define REAL_FFT
 
 /* USER CODE END PD */
 
@@ -353,9 +353,12 @@ int main(void)
   MX_DMA_Init();
   MX_ADC1_Init();
   MX_I2S2_Init();
+  MX_TIM13_Init();
   /* USER CODE BEGIN 2 */
   SEGGER_RTT_ConfigUpBuffer(0, NULL, NULL, 0, SEGGER_RTT_MODE_NO_BLOCK_TRIM);
 
+  HAL_ADC_Start_DMA(&hadc1, adc_input_data_buffer, ADC_DATA_BUFFER_SIZE);
+  //HAL_TIM_Base_Start_IT(&htim13);
 
 #ifdef IIR_BIQUAD
   do_iir_init();
@@ -365,6 +368,7 @@ int main(void)
   real_fft_init();
 #endif // REAL_FFT
 
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -372,14 +376,17 @@ int main(void)
   while (1)
   {
 
-#ifdef IIR_BIQUAD
-	  do_iir_loop();
-#endif //IIR_BIQUAD
+	// do dsp
+	#ifdef IIR_BIQUAD
+		  do_iir_loop();
+	#endif //IIR_BIQUAD
 
-#ifdef REAL_FFT
-	  real_fft_loop();
-#endif //REAL_FFT
+	#ifdef REAL_FFT
+		  real_fft_loop();
+	#endif //REAL_FFT
 
+	check_user_buttons_state();
+	printf("%lu - %lu - %lu\r\n", user_input_data.exp_input, user_input_data.user_pot1, user_input_data.user_pot2 );
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

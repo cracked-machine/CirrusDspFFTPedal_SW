@@ -1,0 +1,13 @@
+/*
+ * user_input.c
+ *
+ *  Created on: Nov 7, 2020
+ *      Author: chris
+ */
+
+#include "user_input.h"
+
+void check_user_buttons_state()
+{
+
+}

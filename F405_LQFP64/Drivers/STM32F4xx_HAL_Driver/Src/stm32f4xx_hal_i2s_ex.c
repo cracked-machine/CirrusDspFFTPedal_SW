@@ -936,8 +936,6 @@ static void I2SEx_TxRxDMACplt(DMA_HandleTypeDef *hdma)
       }
     }
   }
-  // Fixes bug - https://github.com/STMicroelectronics/STM32CubeF4/issues/8
-  HAL_I2SEx_TxRxCpltCallback(hi2s);
 }
 
 /**
@@ -995,7 +993,6 @@ static void I2SEx_TxISR_I2S(I2S_HandleTypeDef *hi2s)
 #endif /* USE_HAL_I2S_REGISTER_CALLBACKS */
     }
   }
-
 }
 
 /**
