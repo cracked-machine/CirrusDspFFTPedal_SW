@@ -1,0 +1,21 @@
+/*
+ * read_microsd_data.c
+ *
+ *  Created on: Nov 8, 2020
+ *      Author: chris
+ */
+
+void read_sdio_data()
+{
+
+}
+
+void write_sdio_data(char* filename, char* text)
+{
+
+}
+
+void error_sdio(char* opcode)
+{
+	printf("Error when performing SDIO: %s ", opcode)
+}

@@ -1,6 +1,7 @@
-16:24:00 **** Incremental Build of configuration Debug for project F405_LQFP64 ****
+20:03:10 **** Incremental Build of configuration Debug for project F405_LQFP64 ****
 make -j4 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32F405xx -DUSE_HAL_DRIVER -DARM_MATH_CM4 -DDEBUG -c -I"/home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/SeggerRTTLib" -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"/home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT" -I/home/chris/Projects/Lib/CMSIS_4/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32F405xx -DUSE_HAL_DRIVER -DARM_MATH_CM4 -DDEBUG -c -I"/home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/SeggerRTTLib" -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"/home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT" -I/home/chris/Projects/Lib/CMSIS_4/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/use_microsd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32F405xx -DUSE_HAL_DRIVER -DARM_MATH_CM4 -DDEBUG -c -I"/home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/SeggerRTTLib" -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"/home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT" -I/home/chris/Projects/Lib/CMSIS_4/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/use_microsd.d" -MT"Core/Src/use_microsd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/use_microsd.o"
 arm-none-eabi-gcc -o "F405_LQFP64.elf" @"objects.list"  -lSeggerRTTLib -larm_cortexM4lf_math -mcpu=cortex-m4 -T"/home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/STM32F405RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F405_LQFP64.map" -Wl,--gc-sections -static -L"/home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/SeggerRTTLib/Debug" -L/home/chris/Projects/Lib/CMSIS_4/CMSIS/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: F405_LQFP64.elf
  
@@ -8,13 +9,13 @@ arm-none-eabi-objdump -h -S  F405_LQFP64.elf  > "F405_LQFP64.list"
 arm-none-eabi-objcopy  -O binary  F405_LQFP64.elf  "F405_LQFP64.bin"
 arm-none-eabi-size   F405_LQFP64.elf 
    text	   data	    bss	    dec	    hex	filename
-  23672	    140	  36164	  59976	   ea48	F405_LQFP64.elf
+  42792	    140	  37476	  80408	  13a18	F405_LQFP64.elf
 Finished building: default.size.stdout
- 
 Finished building: F405_LQFP64.bin
+ 
  
 Finished building: F405_LQFP64.list
  
 
-16:24:02 Build Finished. 0 errors, 0 warnings. (took 1s.461ms)
+20:03:12 Build Finished. 0 errors, 0 warnings. (took 1s.238ms)
 

@@ -29,6 +29,7 @@ extern "C" {
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f4xx_hal.h"
+#include "stm32f4xx_hal.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -84,6 +85,8 @@ void Error_Handler(void);
 #define LEDA_BLUE_GPIO_Port GPIOB
 #define LEDA_GREEN_Pin GPIO_PIN_2
 #define LEDA_GREEN_GPIO_Port GPIOB
+#define SDIO_Detect_Pin GPIO_PIN_8
+#define SDIO_Detect_GPIO_Port GPIOA
 #define LEDB_RED_Pin GPIO_PIN_10
 #define LEDB_RED_GPIO_Port GPIOA
 #define LEDB_BLUE_Pin GPIO_PIN_11
