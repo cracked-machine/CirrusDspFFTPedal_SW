@@ -378,11 +378,11 @@ int main(void)
 
 	// do dsp
 	#ifdef IIR_BIQUAD
-		  do_iir_loop();
+		do_iir_loop();
 	#endif //IIR_BIQUAD
 
 	#ifdef REAL_FFT
-		  real_fft_loop();
+		real_fft_loop();
 	#endif //REAL_FFT
 
 	check_user_buttons_state();

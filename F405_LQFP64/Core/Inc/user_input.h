@@ -11,12 +11,15 @@
 #include "main.h"
 #include "stm32f4xx_hal.h"
 
-
+// Should always be 1 for STM32F4 (Cortex-M4 ADCs interleave all channel inputs into single variable)
 #define ADC_DATA_BUFFER_SIZE 1
+// The buffer that stores the raw ADC input data
 uint32_t adc_input_data_buffer[ADC_DATA_BUFFER_SIZE];
 
+// Can be 1-16 channels
 #define ADC_DATA_DEMUX_SIZE 3
-uint32_t adc_input_data_demuxed[ADC_DATA_DEMUX_SIZE];
+
+// size *must* match ADC_DATA_DEMUX_SIZE!
 typedef struct
 {
 	uint32_t exp_input;
@@ -24,6 +27,7 @@ typedef struct
 	uint32_t user_pot2;
 } adc_input_data_demuxed_t;
 
+// the de-interleaved data store
 adc_input_data_demuxed_t user_input_data;
 
 

@@ -15197,3 +15197,220 @@
 2020-11-07 19:35:02,718 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 1811mS.
 2020-11-07 19:35:02,718 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
 2020-11-07 19:35:02,719 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-11-07 20:09:27,987 [INFO] I2sManager:616 - 1.92E8
+2020-11-07 20:09:27,987 [INFO] I2sManager:173 - I2S Clock Value : 1.92E8
+2020-11-07 20:09:27,987 [INFO] I2sManager:510 - AudioClock : 93750Divider : 4Odd : 0
+2020-11-07 20:17:10,877 [INFO] I2sManager:616 - 1.92E8
+2020-11-07 20:17:10,877 [INFO] I2sManager:173 - I2S Clock Value : 1.92E8
+2020-11-07 20:17:10,878 [INFO] I2sManager:510 - AudioClock : 93750Divider : 4Odd : 0
+2020-11-07 20:17:10,879 [INFO] I2sManager:616 - 1.92E8
+2020-11-07 20:17:10,879 [INFO] I2sManager:173 - I2S Clock Value : 1.92E8
+2020-11-07 20:17:10,880 [INFO] I2sManager:510 - AudioClock : 93750Divider : 4Odd : 0
+2020-11-07 20:17:36,674 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 916226264 Bytes (1073741824)
+2020-11-07 20:17:36,805 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 929605136 Bytes (1073741824)
+2020-11-07 20:17:37,162 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 481657992 Bytes (1073741824)
+2020-11-07 20:17:37,369 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: I2S
+2020-11-07 20:17:37,369 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2020-11-07 20:17:37,369 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: ADC
+2020-11-07 20:17:37,369 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2020-11-07 20:17:37,369 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2020-11-07 20:17:37,369 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: TIM1_8
+2020-11-07 20:17:37,369 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: DMA
+2020-11-07 20:17:37,369 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2020-11-07 20:17:37,371 [INFO] CodeGenerator:622 - code generatio: config db path: /home/chris/opt/STM32CubeIDE/st/stm32cubeide_1.2.0/plugins/com.st.stm32cube.common.mx_6.0.1.202008101643//db/
+2020-11-07 20:17:37,382 [INFO] Argument:278 - Argument : hdmavalue: null
+2020-11-07 20:17:37,382 [INFO] Argument:280 - 	 sub Args: 
+2020-11-07 20:17:37,382 [INFO] Argument:278 - Argument : Instancevalue: DMA2_Stream0
+2020-11-07 20:17:37,382 [INFO] Argument:288 - Argument : Instancevalue: DMA2_Stream0
+2020-11-07 20:17:37,382 [INFO] Argument:278 - Argument : Initvalue: null
+2020-11-07 20:17:37,382 [INFO] Argument:280 - 	 sub Args: 
+2020-11-07 20:17:37,383 [INFO] Argument:278 - Argument : Channelvalue: DMA_CHANNEL_0
+2020-11-07 20:17:37,383 [INFO] Argument:288 - Argument : Channelvalue: DMA_CHANNEL_0
+2020-11-07 20:17:37,383 [INFO] Argument:278 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2020-11-07 20:17:37,383 [INFO] Argument:288 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2020-11-07 20:17:37,383 [INFO] Argument:278 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2020-11-07 20:17:37,383 [INFO] Argument:288 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2020-11-07 20:17:37,383 [INFO] Argument:278 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2020-11-07 20:17:37,383 [INFO] Argument:288 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2020-11-07 20:17:37,383 [INFO] Argument:278 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2020-11-07 20:17:37,383 [INFO] Argument:288 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2020-11-07 20:17:37,383 [INFO] Argument:278 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2020-11-07 20:17:37,383 [INFO] Argument:288 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2020-11-07 20:17:37,383 [INFO] Argument:278 - Argument : Modevalue: DMA_CIRCULAR
+2020-11-07 20:17:37,383 [INFO] Argument:288 - Argument : Modevalue: DMA_CIRCULAR
+2020-11-07 20:17:37,383 [INFO] Argument:278 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2020-11-07 20:17:37,383 [INFO] Argument:288 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2020-11-07 20:17:37,383 [INFO] Argument:278 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2020-11-07 20:17:37,383 [INFO] Argument:288 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2020-11-07 20:17:37,384 [INFO] Argument:278 - Argument : FIFOThresholdvalue: null
+2020-11-07 20:17:37,384 [INFO] Argument:288 - Argument : FIFOThresholdvalue: null
+2020-11-07 20:17:37,384 [INFO] Argument:278 - Argument : MemBurstvalue: null
+2020-11-07 20:17:37,384 [INFO] Argument:288 - Argument : MemBurstvalue: null
+2020-11-07 20:17:37,384 [INFO] Argument:278 - Argument : PeriphBurstvalue: null
+2020-11-07 20:17:37,384 [INFO] Argument:288 - Argument : PeriphBurstvalue: null
+2020-11-07 20:17:37,384 [INFO] Argument:278 - Argument : Lockvalue: null
+2020-11-07 20:17:37,384 [INFO] Argument:288 - Argument : Lockvalue: null
+2020-11-07 20:17:37,384 [INFO] Argument:278 - Argument : Statevalue: null
+2020-11-07 20:17:37,384 [INFO] Argument:288 - Argument : Statevalue: null
+2020-11-07 20:17:37,384 [INFO] Argument:278 - Argument : Parentvalue: null
+2020-11-07 20:17:37,384 [INFO] Argument:288 - Argument : Parentvalue: null
+2020-11-07 20:17:37,384 [INFO] Argument:278 - Argument : XferCpltCallbackvalue: null
+2020-11-07 20:17:37,384 [INFO] Argument:288 - Argument : XferCpltCallbackvalue: null
+2020-11-07 20:17:37,384 [INFO] Argument:278 - Argument : XferHalfCpltCallbackvalue: null
+2020-11-07 20:17:37,384 [INFO] Argument:288 - Argument : XferHalfCpltCallbackvalue: null
+2020-11-07 20:17:37,384 [INFO] Argument:278 - Argument : XferM1CpltCallbackvalue: null
+2020-11-07 20:17:37,384 [INFO] Argument:288 - Argument : XferM1CpltCallbackvalue: null
+2020-11-07 20:17:37,385 [INFO] Argument:278 - Argument : XferErrorCallbackvalue: null
+2020-11-07 20:17:37,385 [INFO] Argument:288 - Argument : XferErrorCallbackvalue: null
+2020-11-07 20:17:37,385 [INFO] Argument:278 - Argument : ErrorCodevalue: null
+2020-11-07 20:17:37,385 [INFO] Argument:288 - Argument : ErrorCodevalue: null
+2020-11-07 20:17:37,387 [INFO] Argument:278 - Argument : hdmavalue: null
+2020-11-07 20:17:37,387 [INFO] Argument:280 - 	 sub Args: 
+2020-11-07 20:17:37,387 [INFO] Argument:278 - Argument : Instancevalue: DMA1_Stream3
+2020-11-07 20:17:37,387 [INFO] Argument:288 - Argument : Instancevalue: DMA1_Stream3
+2020-11-07 20:17:37,387 [INFO] Argument:278 - Argument : Initvalue: null
+2020-11-07 20:17:37,387 [INFO] Argument:280 - 	 sub Args: 
+2020-11-07 20:17:37,387 [INFO] Argument:278 - Argument : Channelvalue: DMA_CHANNEL_3
+2020-11-07 20:17:37,387 [INFO] Argument:288 - Argument : Channelvalue: DMA_CHANNEL_3
+2020-11-07 20:17:37,387 [INFO] Argument:278 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2020-11-07 20:17:37,387 [INFO] Argument:288 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2020-11-07 20:17:37,387 [INFO] Argument:278 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2020-11-07 20:17:37,387 [INFO] Argument:288 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2020-11-07 20:17:37,387 [INFO] Argument:278 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2020-11-07 20:17:37,387 [INFO] Argument:288 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2020-11-07 20:17:37,387 [INFO] Argument:278 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2020-11-07 20:17:37,388 [INFO] Argument:288 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2020-11-07 20:17:37,388 [INFO] Argument:278 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2020-11-07 20:17:37,388 [INFO] Argument:288 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2020-11-07 20:17:37,388 [INFO] Argument:278 - Argument : Modevalue: DMA_CIRCULAR
+2020-11-07 20:17:37,388 [INFO] Argument:288 - Argument : Modevalue: DMA_CIRCULAR
+2020-11-07 20:17:37,388 [INFO] Argument:278 - Argument : Priorityvalue: DMA_PRIORITY_VERY_HIGH
+2020-11-07 20:17:37,388 [INFO] Argument:288 - Argument : Priorityvalue: DMA_PRIORITY_VERY_HIGH
+2020-11-07 20:17:37,388 [INFO] Argument:278 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2020-11-07 20:17:37,388 [INFO] Argument:288 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2020-11-07 20:17:37,388 [INFO] Argument:278 - Argument : FIFOThresholdvalue: null
+2020-11-07 20:17:37,388 [INFO] Argument:288 - Argument : FIFOThresholdvalue: null
+2020-11-07 20:17:37,388 [INFO] Argument:278 - Argument : MemBurstvalue: null
+2020-11-07 20:17:37,388 [INFO] Argument:288 - Argument : MemBurstvalue: null
+2020-11-07 20:17:37,388 [INFO] Argument:278 - Argument : PeriphBurstvalue: null
+2020-11-07 20:17:37,388 [INFO] Argument:288 - Argument : PeriphBurstvalue: null
+2020-11-07 20:17:37,388 [INFO] Argument:278 - Argument : Lockvalue: null
+2020-11-07 20:17:37,388 [INFO] Argument:288 - Argument : Lockvalue: null
+2020-11-07 20:17:37,389 [INFO] Argument:278 - Argument : Statevalue: null
+2020-11-07 20:17:37,389 [INFO] Argument:288 - Argument : Statevalue: null
+2020-11-07 20:17:37,389 [INFO] Argument:278 - Argument : Parentvalue: null
+2020-11-07 20:17:37,389 [INFO] Argument:288 - Argument : Parentvalue: null
+2020-11-07 20:17:37,389 [INFO] Argument:278 - Argument : XferCpltCallbackvalue: null
+2020-11-07 20:17:37,389 [INFO] Argument:288 - Argument : XferCpltCallbackvalue: null
+2020-11-07 20:17:37,389 [INFO] Argument:278 - Argument : XferHalfCpltCallbackvalue: null
+2020-11-07 20:17:37,389 [INFO] Argument:288 - Argument : XferHalfCpltCallbackvalue: null
+2020-11-07 20:17:37,389 [INFO] Argument:278 - Argument : XferM1CpltCallbackvalue: null
+2020-11-07 20:17:37,389 [INFO] Argument:288 - Argument : XferM1CpltCallbackvalue: null
+2020-11-07 20:17:37,389 [INFO] Argument:278 - Argument : XferErrorCallbackvalue: null
+2020-11-07 20:17:37,389 [INFO] Argument:288 - Argument : XferErrorCallbackvalue: null
+2020-11-07 20:17:37,389 [INFO] Argument:278 - Argument : ErrorCodevalue: null
+2020-11-07 20:17:37,389 [INFO] Argument:288 - Argument : ErrorCodevalue: null
+2020-11-07 20:17:37,390 [INFO] Argument:278 - Argument : hdmavalue: null
+2020-11-07 20:17:37,390 [INFO] Argument:280 - 	 sub Args: 
+2020-11-07 20:17:37,390 [INFO] Argument:278 - Argument : Instancevalue: DMA1_Stream4
+2020-11-07 20:17:37,390 [INFO] Argument:288 - Argument : Instancevalue: DMA1_Stream4
+2020-11-07 20:17:37,390 [INFO] Argument:278 - Argument : Initvalue: null
+2020-11-07 20:17:37,390 [INFO] Argument:280 - 	 sub Args: 
+2020-11-07 20:17:37,390 [INFO] Argument:278 - Argument : Channelvalue: DMA_CHANNEL_0
+2020-11-07 20:17:37,390 [INFO] Argument:288 - Argument : Channelvalue: DMA_CHANNEL_0
+2020-11-07 20:17:37,390 [INFO] Argument:278 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2020-11-07 20:17:37,390 [INFO] Argument:288 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2020-11-07 20:17:37,390 [INFO] Argument:278 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2020-11-07 20:17:37,391 [INFO] Argument:288 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2020-11-07 20:17:37,391 [INFO] Argument:278 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2020-11-07 20:17:37,391 [INFO] Argument:288 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2020-11-07 20:17:37,391 [INFO] Argument:278 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2020-11-07 20:17:37,391 [INFO] Argument:288 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2020-11-07 20:17:37,391 [INFO] Argument:278 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2020-11-07 20:17:37,391 [INFO] Argument:288 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2020-11-07 20:17:37,391 [INFO] Argument:278 - Argument : Modevalue: DMA_CIRCULAR
+2020-11-07 20:17:37,391 [INFO] Argument:288 - Argument : Modevalue: DMA_CIRCULAR
+2020-11-07 20:17:37,391 [INFO] Argument:278 - Argument : Priorityvalue: DMA_PRIORITY_VERY_HIGH
+2020-11-07 20:17:37,391 [INFO] Argument:288 - Argument : Priorityvalue: DMA_PRIORITY_VERY_HIGH
+2020-11-07 20:17:37,391 [INFO] Argument:278 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2020-11-07 20:17:37,391 [INFO] Argument:288 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2020-11-07 20:17:37,391 [INFO] Argument:278 - Argument : FIFOThresholdvalue: null
+2020-11-07 20:17:37,391 [INFO] Argument:288 - Argument : FIFOThresholdvalue: null
+2020-11-07 20:17:37,391 [INFO] Argument:278 - Argument : MemBurstvalue: null
+2020-11-07 20:17:37,391 [INFO] Argument:288 - Argument : MemBurstvalue: null
+2020-11-07 20:17:37,392 [INFO] Argument:278 - Argument : PeriphBurstvalue: null
+2020-11-07 20:17:37,392 [INFO] Argument:288 - Argument : PeriphBurstvalue: null
+2020-11-07 20:17:37,392 [INFO] Argument:278 - Argument : Lockvalue: null
+2020-11-07 20:17:37,392 [INFO] Argument:288 - Argument : Lockvalue: null
+2020-11-07 20:17:37,392 [INFO] Argument:278 - Argument : Statevalue: null
+2020-11-07 20:17:37,392 [INFO] Argument:288 - Argument : Statevalue: null
+2020-11-07 20:17:37,392 [INFO] Argument:278 - Argument : Parentvalue: null
+2020-11-07 20:17:37,392 [INFO] Argument:288 - Argument : Parentvalue: null
+2020-11-07 20:17:37,392 [INFO] Argument:278 - Argument : XferCpltCallbackvalue: null
+2020-11-07 20:17:37,392 [INFO] Argument:288 - Argument : XferCpltCallbackvalue: null
+2020-11-07 20:17:37,392 [INFO] Argument:278 - Argument : XferHalfCpltCallbackvalue: null
+2020-11-07 20:17:37,392 [INFO] Argument:288 - Argument : XferHalfCpltCallbackvalue: null
+2020-11-07 20:17:37,392 [INFO] Argument:278 - Argument : XferM1CpltCallbackvalue: null
+2020-11-07 20:17:37,392 [INFO] Argument:288 - Argument : XferM1CpltCallbackvalue: null
+2020-11-07 20:17:37,392 [INFO] Argument:278 - Argument : XferErrorCallbackvalue: null
+2020-11-07 20:17:37,392 [INFO] Argument:288 - Argument : XferErrorCallbackvalue: null
+2020-11-07 20:17:37,392 [INFO] Argument:278 - Argument : ErrorCodevalue: null
+2020-11-07 20:17:37,392 [INFO] Argument:288 - Argument : ErrorCodevalue: null
+2020-11-07 20:17:37,596 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/MXTmpFiles/license.tmp_save
+2020-11-07 20:17:37,648 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/MXTmpFiles/license.tmp
+2020-11-07 20:17:37,671 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Src/gpio.c_save
+2020-11-07 20:17:37,728 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Src/gpio.c
+2020-11-07 20:17:37,730 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Inc/gpio.h_save
+2020-11-07 20:17:37,781 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Inc/gpio.h
+2020-11-07 20:17:38,008 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-11-07 20:17:38,011 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Src/adc.c_save
+2020-11-07 20:17:38,089 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Src/adc.c
+2020-11-07 20:17:38,091 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Inc/adc.h_save
+2020-11-07 20:17:38,141 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Inc/adc.h
+2020-11-07 20:17:38,142 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-11-07 20:17:38,199 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Src/dma.c_save
+2020-11-07 20:17:38,323 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Src/dma.c
+2020-11-07 20:17:38,325 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Inc/dma.h_save
+2020-11-07 20:17:38,376 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Inc/dma.h
+2020-11-07 20:17:38,376 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-11-07 20:17:38,379 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Src/i2s.c_save
+2020-11-07 20:17:38,456 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Src/i2s.c
+2020-11-07 20:17:38,458 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Inc/i2s.h_save
+2020-11-07 20:17:38,508 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Inc/i2s.h
+2020-11-07 20:17:38,509 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-11-07 20:17:38,512 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Src/tim.c_save
+2020-11-07 20:17:38,586 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Src/tim.c
+2020-11-07 20:17:38,588 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Inc/tim.h_save
+2020-11-07 20:17:38,638 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Inc/tim.h
+2020-11-07 20:17:38,641 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Src/stm32f4xx_it.c_save
+2020-11-07 20:17:38,708 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Src/stm32f4xx_it.c
+2020-11-07 20:17:38,710 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Inc/stm32f4xx_it.h_save
+2020-11-07 20:17:38,762 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Inc/stm32f4xx_it.h
+2020-11-07 20:17:38,765 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Src/stm32f4xx_hal_msp.c_save
+2020-11-07 20:17:38,842 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Src/stm32f4xx_hal_msp.c
+2020-11-07 20:17:38,844 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/MXTmpFiles/system.tmp_save
+2020-11-07 20:17:38,894 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/MXTmpFiles/system.tmp
+2020-11-07 20:17:38,897 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Inc/stm32f4xx_hal_conf.h_save
+2020-11-07 20:17:38,960 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Inc/stm32f4xx_hal_conf.h
+2020-11-07 20:17:38,979 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Inc/main.h_save
+2020-11-07 20:17:39,042 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Inc/main.h
+2020-11-07 20:17:39,044 [INFO] CodeEngine:188 - oldGeneratedFile, /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Src/main.c_save
+2020-11-07 20:17:39,125 [INFO] CodeEngine:206 - Generated code: /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/F405_LQFP64/Core/Src/main.c
+2020-11-07 20:17:39,744 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 17mS.
+2020-11-07 20:17:39,756 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2020-11-07 20:17:40,089 [INFO] ConfigFileManager:1183 - The Die is : DIE413
+2020-11-07 20:17:41,584 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 1828mS.
+2020-11-07 20:17:41,584 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-11-07 20:17:41,585 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2020-11-08 12:48:32,197 [INFO] Activator:178 - 
+
+
+2020-11-08 12:48:32,202 [INFO] Activator:179 - !SESSION log4j initialized
+2020-11-08 13:10:13,396 [INFO] Activator:178 - 
+
+
+2020-11-08 13:10:13,399 [INFO] Activator:179 - !SESSION log4j initialized
+2020-11-08 16:22:15,409 [INFO] Activator:178 - 
+
+
+2020-11-08 16:22:15,413 [INFO] Activator:179 - !SESSION log4j initialized
