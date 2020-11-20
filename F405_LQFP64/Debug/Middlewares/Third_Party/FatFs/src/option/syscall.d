@@ -36,8 +36,8 @@ Middlewares/Third_Party/FatFs/src/option/syscall.o: \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_sdmmc.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
- /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT.h \
- /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT_Conf.h \
+ /home/chris/Projects/EmbeddedSw/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT.h \
+ /home/chris/Projects/EmbeddedSw/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT_Conf.h \
  ../FATFS/Target/bsp_driver_sd.h ../FATFS/Target/fatfs_platform.h
 
 ../Middlewares/Third_Party/FatFs/src/option/../ff.h:
@@ -114,9 +114,9 @@ Middlewares/Third_Party/FatFs/src/option/syscall.o: \
 
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
 
-/home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT.h:
+/home/chris/Projects/EmbeddedSw/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT.h:
 
-/home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT_Conf.h:
+/home/chris/Projects/EmbeddedSw/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT_Conf.h:
 
 ../FATFS/Target/bsp_driver_sd.h:
 

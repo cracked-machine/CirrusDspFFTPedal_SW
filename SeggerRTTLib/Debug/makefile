@@ -28,13 +28,21 @@ endif
 
 -include ../makefile.defs
 
+BUILD_ARTIFACT_NAME := SeggerRTTLib
+BUILD_ARTIFACT_EXTENSION := a
+BUILD_ARTIFACT_PREFIX := lib
+BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME).$(BUILD_ARTIFACT_EXTENSION)
+
 # Add inputs and outputs from these tool invocations to the build variables 
 ARCHIVES += \
 libSeggerRTTLib.a \
 
 
 # All Target
-all: libSeggerRTTLib.a secondary-outputs
+all: main-build
+
+# Main-build Target
+main-build: libSeggerRTTLib.a secondary-outputs
 
 # Tool invocations
 libSeggerRTTLib.a: $(OBJS) $(USER_OBJS)
@@ -49,7 +57,14 @@ clean:
 
 secondary-outputs:
 
-.PHONY: all clean dependents
+fail-specified-linker-script-missing:
+	@echo 'Error: Cannot find the specified linker script. Check the linker settings in the build configuration.'
+	@exit 2
+
+warn-no-linker-script-specified:
+	@echo 'Warning: No linker script specified. Check the linker settings in the build configuration.'
+
+.PHONY: all clean dependents fail-specified-linker-script-missing warn-no-linker-script-specified
 .SECONDARY:
 
 -include ../makefile.targets
