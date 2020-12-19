@@ -32,8 +32,8 @@ Core/Src/tim.o: ../Core/Src/tim.c ../Core/Inc/tim.h ../Core/Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_sdmmc.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
- /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT.h \
- /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT_Conf.h
+ /home/chris/Projects/EmbeddedSw/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT.h \
+ /home/chris/Projects/EmbeddedSw/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT_Conf.h
 
 ../Core/Inc/tim.h:
 
@@ -105,6 +105,6 @@ Core/Src/tim.o: ../Core/Src/tim.c ../Core/Inc/tim.h ../Core/Inc/main.h \
 
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
 
-/home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT.h:
+/home/chris/Projects/EmbeddedSw/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT.h:
 
-/home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT_Conf.h:
+/home/chris/Projects/EmbeddedSw/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT_Conf.h:

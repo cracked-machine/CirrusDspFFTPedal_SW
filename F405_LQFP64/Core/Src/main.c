@@ -359,13 +359,22 @@ int main(void)
   MX_TIM13_Init();
   MX_SDIO_SD_Init();
   MX_FATFS_Init();
+  MX_TIM3_Init();
+  MX_TIM4_Init();
   /* USER CODE BEGIN 2 */
   SEGGER_RTT_ConfigUpBuffer(0, NULL, NULL, 0, SEGGER_RTT_MODE_NO_BLOCK_TRIM);
 
+  // enable ADC input for expression pedal input
   HAL_ADC_Start_DMA(&hadc1, adc_input_data_buffer, ADC_DATA_BUFFER_SIZE);
   //HAL_TIM_Base_Start_IT(&htim13);
 
+  //enable the rotary encoders
+  HAL_TIM_Encoder_Start(&htim3, TIM_CHANNEL_ALL);
+  HAL_TIM_Encoder_Start(&htim4, TIM_CHANNEL_ALL);
+
+  // read from microSD card
   read_sdio_data();
+
   HAL_Delay(5000);
 
 #ifdef IIR_BIQUAD
@@ -385,6 +394,7 @@ int main(void)
   while (1)
   {
 
+	/*
 	// do dsp
 	#ifdef IIR_BIQUAD
 		do_iir_loop();
@@ -393,9 +403,15 @@ int main(void)
 	#ifdef REAL_FFT
 		real_fft_loop();
 	#endif //REAL_FFT
-
+*/
+	// check the toggle button positions
 	check_user_buttons_state();
-	printf("%lu - %lu - %lu\r\n", user_input_data.exp_input, user_input_data.user_pot1, user_input_data.user_pot2 );
+
+	// check rotary encoder values and directions
+	uint32_t tim3_dir = (TIM3->CR1 & TIM_CR1_DIR);
+	uint32_t tim4_dir = (TIM4->CR1 & TIM_CR1_DIR);
+	printf("RIGHT KNOB %lu (%lu) - LEFT KNOB %lu (%lu) - EXP %lu\r\n", TIM3->CNT, tim3_dir , TIM4->CNT , tim4_dir, adc_input_data_buffer[0]);
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

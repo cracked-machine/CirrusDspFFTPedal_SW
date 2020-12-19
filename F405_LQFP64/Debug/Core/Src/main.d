@@ -32,8 +32,8 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_sdmmc.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
- /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT.h \
- /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT_Conf.h \
+ /home/chris/Projects/EmbeddedSw/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT.h \
+ /home/chris/Projects/EmbeddedSw/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT_Conf.h \
  ../Core/Inc/adc.h ../Core/Inc/main.h ../Core/Inc/dma.h \
  ../FATFS/App/fatfs.h ../Middlewares/Third_Party/FatFs/src/ff.h \
  ../Middlewares/Third_Party/FatFs/src/integer.h ../FATFS/Target/ffconf.h \
@@ -42,9 +42,8 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Middlewares/Third_Party/FatFs/src/diskio.h \
  ../Middlewares/Third_Party/FatFs/src/ff.h ../FATFS/Target/sd_diskio.h \
  ../Core/Inc/i2s.h ../Core/Inc/sdio.h ../Core/Inc/tim.h \
- ../Core/Inc/gpio.h \
- /home/chris/Projects/Lib/CMSIS_4/CMSIS/Include/arm_math.h \
- /home/chris/Projects/Lib/CMSIS_4/CMSIS/Include/core_cm4.h \
+ ../Core/Inc/gpio.h ../../../../Lib/CMSIS_4/CMSIS/Include/arm_math.h \
+ ../../../../Lib/CMSIS_4/CMSIS/Include/core_cm4.h \
  ../Core/Inc/user_input.h ../Core/Inc/use_microsd.h
 
 ../Core/Inc/main.h:
@@ -115,9 +114,9 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
 
-/home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT.h:
+/home/chris/Projects/EmbeddedSw/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT.h:
 
-/home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT_Conf.h:
+/home/chris/Projects/EmbeddedSw/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT_Conf.h:
 
 ../Core/Inc/adc.h:
 
@@ -153,9 +152,9 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 
 ../Core/Inc/gpio.h:
 
-/home/chris/Projects/Lib/CMSIS_4/CMSIS/Include/arm_math.h:
+../../../../Lib/CMSIS_4/CMSIS/Include/arm_math.h:
 
-/home/chris/Projects/Lib/CMSIS_4/CMSIS/Include/core_cm4.h:
+../../../../Lib/CMSIS_4/CMSIS/Include/core_cm4.h:
 
 ../Core/Inc/user_input.h:
 

@@ -75,10 +75,6 @@ void Error_Handler(void);
 #define user_switch1_GPIO_Port GPIOC
 #define FootExp_IN_Pin GPIO_PIN_0
 #define FootExp_IN_GPIO_Port GPIOA
-#define UserPotA_IN_Pin GPIO_PIN_1
-#define UserPotA_IN_GPIO_Port GPIOA
-#define UserPotB_IN_Pin GPIO_PIN_2
-#define UserPotB_IN_GPIO_Port GPIOA
 #define LEDA_RED_Pin GPIO_PIN_0
 #define LEDA_RED_GPIO_Port GPIOB
 #define LEDA_BLUE_Pin GPIO_PIN_1

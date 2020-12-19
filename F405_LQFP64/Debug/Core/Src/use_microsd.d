@@ -33,8 +33,8 @@ Core/Src/use_microsd.o: ../Core/Src/use_microsd.c \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_sdmmc.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
- /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT.h \
- /home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT_Conf.h \
+ /home/chris/Projects/EmbeddedSw/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT.h \
+ /home/chris/Projects/EmbeddedSw/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT_Conf.h \
  ../FATFS/App/fatfs.h ../Middlewares/Third_Party/FatFs/src/ff.h \
  ../Middlewares/Third_Party/FatFs/src/integer.h ../FATFS/Target/ffconf.h \
  ../Core/Inc/main.h ../FATFS/Target/bsp_driver_sd.h \
@@ -114,9 +114,9 @@ Core/Src/use_microsd.o: ../Core/Src/use_microsd.c \
 
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
 
-/home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT.h:
+/home/chris/Projects/EmbeddedSw/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT.h:
 
-/home/chris/Projects/Embedded/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT_Conf.h:
+/home/chris/Projects/EmbeddedSw/CirrusDspFFTPedal_SW/SeggerRTTLib/RTT/SEGGER_RTT_Conf.h:
 
 ../FATFS/App/fatfs.h:
 

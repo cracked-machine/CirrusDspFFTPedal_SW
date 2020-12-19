@@ -58,11 +58,11 @@ all: main-build
 main-build: F405_LQFP64.elf secondary-outputs
 
 dependents:
-	-cd /home/chris/Projects/EmbeddedSw/CirrusDspFFTPedal_SW/SeggerRTTLib/Debug && $(MAKE) clean all
+	-cd /home/chris/Projects/EmbeddedSw/CirrusDspFFTPedal_SW/SeggerRTTLib/Debug && $(MAKE) all
 
 # Tool invocations
 F405_LQFP64.elf: $(OBJS) $(USER_OBJS) /home/chris/Projects/EmbeddedSw/CirrusDspFFTPedal_SW/SeggerRTTLib/Debug/libSeggerRTTLib.a /home/chris/Projects/EmbeddedSw/CirrusDspFFTPedal_SW/F405_LQFP64/STM32F405RGTX_FLASH.ld
-	arm-none-eabi-gcc -o "F405_LQFP64.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/chris/Projects/EmbeddedSw/CirrusDspFFTPedal_SW/F405_LQFP64/STM32F405RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F405_LQFP64.map" -Wl,--gc-sections -static -L"/home/chris/Projects/EmbeddedSw/CirrusDspFFTPedal_SW/SeggerRTTLib/Debug" -L/home/chris/Projects/Lib/CMSIS_4/CMSIS/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+	arm-none-eabi-gcc -o "F405_LQFP64.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/chris/Projects/EmbeddedSw/CirrusDspFFTPedal_SW/F405_LQFP64/STM32F405RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="F405_LQFP64.map" -Wl,--gc-sections -static -L"/home/chris/Projects/EmbeddedSw/CirrusDspFFTPedal_SW/SeggerRTTLib/Debug" -L../../../../Lib/CMSIS_4/CMSIS/Lib/GCC --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

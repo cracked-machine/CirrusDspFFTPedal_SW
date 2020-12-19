@@ -19,3 +19,11 @@ Added
 `HAL_I2SEx_TxRxCpltCallback(hi2s);`
 
 to stm32f405xx_hal_i2s_ex.c:939  
+
+
+3. CMSIS DSP dependency
+
+Clone the https://github.com/ARM-software/CMSIS repo to the same directory as this repo.
+
+i. Add "../../../Lib/CMSIS_4/CMSIS/Lib/GCC" to C/C++ General > Paths and Symbols > Library Paths
+ii. Add "../../../Lib/CMSIS_4/CMSIS/Include" to C/C++ General > Paths and Symbols > Includes

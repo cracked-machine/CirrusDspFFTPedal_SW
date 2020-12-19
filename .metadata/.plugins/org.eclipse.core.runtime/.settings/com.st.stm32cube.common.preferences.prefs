@@ -1,3 +1,7 @@
+DeviceConfigurationTool..FirmwareRepositoryPath=/mnt/sdb/STM32Cube/Repository
+DeviceConfigurationTool..UpdaterCheckInterval=5
+DeviceConfigurationTool..UpdaterDataRefresh=dataRefreshDataOnly
+DeviceConfigurationTool..UpdaterDataRefreshInterfval=3
 DeviceConfigurationTool.AskToDoCodeGenerationOnIocSave=false
 DeviceConfigurationTool.AskToDoSaveAllOnCodeGeneration=false
 DeviceConfigurationTool.AskToSwitchToCPerspectiveOnCodeGeneration=false
